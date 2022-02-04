@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3aa05c38fc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Random User</title>
+  </head>
+  <body>
+    <section class="container">
+      <img
+        src="https://randomuser.me/api/portraits/men/75.jpg"
+        alt="user-image"
+        class="user-img"
+      />
+      <p class="user-title">My Name is</p>
+      <p class="user-value">John Smith</p>
+      <div class="btn-icons">
+        <button class="icon active" data-label="name">
+          <span class="fas fa-user"></span>
+        </button>
+        <button class="icon" data-label="email">
+          <span class="fas fa-envelope"></span>
+        </button>
+        <button class="icon" data-label="age">
+          <span class="fas fa-calendar-day"></span>
+        </button>
+        <button class="icon" data-label="street">
+          <span class="fas fa-map-marked-alt"></span>
+        </button>
+        <button class="icon" data-label="city">
+          <span class="fas fa-city"></span>
+        </button>
+        <button class="icon" data-label="phone">
+          <span class="fas fa-phone"></span>
+        </button>
+      </div>
+    </section>
+    <button type="button" class="btn">Random User</button>
+  </body>
+</html>
